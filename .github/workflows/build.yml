@@ -34,3 +34,4 @@ jobs:
 
       - name: Cake build
         run: dotnet tool restore && dotnet cake --bootstrap --verbosity=verbose && dotnet cake --verbosity=verbose --target=build --publish=true
+
